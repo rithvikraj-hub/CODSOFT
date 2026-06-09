@@ -1,81 +1,156 @@
 # Rule-Based Chatbot
 
+================
+
 ## Overview
 
-This project implements a simple Rule-Based Chatbot using Python. The chatbot interacts with users by recognizing predefined keywords and responding with appropriate messages. It uses conditional statements (`if-elif-else`) to identify user queries and generate responses.
+===========
 
-The project demonstrates the fundamentals of Natural Language Processing (NLP), conversational AI, and user interaction through a command-line interface.
+# Rule-Based Chatbot is a Python-based rule-driven chatbot that interacts with users through a command-line interface. The chatbot can answer predefined questions, provide information about Python, Artificial Intelligence, Machine Learning, internships, courses, weather, and perform basic calculations.
+
+The project demonstrates the use of Python fundamentals such as loops, conditional statements, modules, exception handling, and user interaction.
 
 ## Features
 
-* Responds to greetings such as "Hello" and "Hi"
-* Answers questions about its name
-* Provides information about Artificial Intelligence (AI)
-* Responds to course-related queries
-* Offers help instructions to users
-* Ends the conversation when the user types "bye"
-* Handles unknown inputs gracefully
+============
+
+* Greeting responses
+* Date and time display
+* Information about Python
+* Information about Artificial Intelligence (AI)
+* Information about Machine Learning
+* Internship guidance
+* Course recommendations
+* Motivation messages
+* Random jokes
+* Weather-related responses
+* Basic calculator functionality
+* Help menu
+* Exit command
 
 ## Technologies Used
 
+====================
+
 * Python 3
-* Conditional Statements
-* Basic Natural Language Processing Concepts
+* datetime module
+* random module
 
 ## Project Structure
 
-```text
-FUTURE_ML_01/
-│
+====================
+
+Task1_Chatbot/
+
 ├── chatbot.py
+
 ├── README.md
+
 └── requirements.txt
+
+## Installation
+
+===============
+
+1. Install Python 3 on your computer.
+2. Download or clone this repository.
+3. Open the project folder in VS Code or any Python IDE.
+
+## Running the Project
+
+======================
+
+Run the following command in the terminal:
+
+```bash
+python chatbot.py
 ```
 
-## How It Works
+## Available Commands
 
-1. The chatbot accepts user input.
-2. The input is converted to lowercase for easier matching.
-3. Predefined rules are checked using conditional statements.
-4. A suitable response is displayed.
-5. The conversation continues until the user enters "bye".
+=====================
 
-## Sample Interaction
+* hello
+* hi
+* hey
+* how are you
+* your name
+* your age
+* who created you
+* developer
+* date
+* time
+* python
+* ai
+* artificial intelligence
+* machine learning
+* college
+* internship
+* course
+* motivate me
+* joke
+* favorite color
+* weather
+* calculate 5+10
+* what can you do
+* help
+* bye
 
-```text
-ChatBot: Hello! Type 'bye' to exit.
+## Sample Output
 
-You: Hi
-ChatBot: Hello! How can I help you?
+================
 
-You: What is AI?
-ChatBot: Artificial Intelligence (AI) is the simulation of human intelligence in machines that can learn, reason, and make decisions.
+ChatBot: Hello! How can I help you today?
 
-You: What course are you studying?
-ChatBot: I am studying Artificial Intelligence and Machine Learning (AI & ML).
+You: date
 
-You: Bye
-ChatBot: Goodbye! Have a nice day.
-```
+ChatBot: Today's date is 09-06-2026
+
+You: time
+
+ChatBot: Current time is 14:30:15
+
+You: calculate 25+15
+
+ChatBot: The answer is 40
+
+You: bye
+
+ChatBot: Goodbye! Have a wonderful day.
 
 ## Learning Outcomes
 
-* Understanding chatbot design
-* Implementing rule-based conversation flow
-* Using conditional logic in Python
-* Introduction to Natural Language Processing concepts
-* Building interactive command-line applications
+====================
+
+This project helps in understanding:
+
+* Python loops
+* Conditional statements
+* User input handling
+* Built-in modules
+* Exception handling
+* Rule-based chatbot development
+* Command-line applications
 
 ## Future Enhancements
 
-* Add more conversation patterns
-* Integrate pattern matching using regular expressions
-* Connect with external APIs for dynamic responses
-* Implement GUI using Tkinter
-* Add voice-based interaction
+======================
+
+* Add a graphical user interface (GUI)
+* Integrate speech recognition
+* Connect to live weather APIs
+* Add chat history storage
+* Implement Natural Language Processing (NLP)
+* Support multiple languages
 
 ## Conclusion
 
-This project provides a beginner-friendly introduction to chatbot development. It demonstrates how predefined rules can be used to create simple conversational agents and serves as a foundation for more advanced AI-powered chatbots.
+==============
 
+The Rule-Based Chatbot project is a simple yet effective implementation of a rule-based conversational assistant using Python. It demonstrates how predefined rules can be used to create interactive user experiences. Through this project, important Python programming concepts such as loops, conditions, modules, and exception handling are applied in a practical way. The chatbot serves as a strong foundation for building more advanced AI-powered conversational systems in the future.
 
+## Author
+
+=========
+
+KARAKAMBADI RITHVIKRAJ
